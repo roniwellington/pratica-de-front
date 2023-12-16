@@ -1,0 +1,23 @@
+.imagem {
+    background: linear-gradient(180deg, #2d2db0 -65%, #2c8cf4 110%);
+    background-size: cover;
+}
+
+.cor-menu {
+    background-color: linear-gradient(180deg, #2d2db0 -65%, #0f67c5 110%);
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+
+  .ultima-secao {
+    background: linear-gradient(90deg, rgba(146,205,250,0.4) 0%, rgba(199,235,255,0.4) 100%);
+}
+  

@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JackLanterna</title>
+  <link rel="shortcut icon" href="img/icone01.png" type="image/x-icon">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/heroes/">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/masonry/">
+  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/product.css">
+  <link rel="stylesheet" href="css/secao.css">
+  <link rel="stylesheet" href="css/carrossel.css">
+  <link rel="stylesheet" href="css/geral.css">
+  <!-- Custom styles for this template -->
+  <link href="css/heroes.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--CABECALHO-->
+  <div class="imagem">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark border-bottom" aria-label="Eighth navbar example">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/logo03.png" alt="Logo do Site"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+            aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample07">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Documentação.html">Meus Estudos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Mais</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="templates.html">Templates</a></li>
+                  <li><a class="dropdown-item" href="youtube.html">YouTube</a></li>
+                  <li><a class="dropdown-item" href="https://thaiff.com/" target="_blank">Serviços</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-light me-2" type="submit">Pesquisar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--JACK LANTERNA-->
+
+    <section class="position-relative overflow-hidden p-3 p-md-5  text-center text-white ">
+      <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 fw-bold">Jack Lanterna</h1>
+        <!-- <p class="lead fw-normal">Faça você mesmo sua própria aplicação web, com nossos conteúdos você pode ir do Front ao Back End.</p>-->
+        <p class="lead fw-normal">Esse é um site com conteúdo de Ciência e tecnologia, Astronomia, mercado, linguagens
+          de programação e mais.</p>
+        <a class="btn btn-outline-light me-2" href="Documentação.html">Documentação</a>
+      </div>
+      <!-- <div class="product-device shadow-sm d-none d-md-block imagem"></div>
+          <div class="product-device product-device-2 shadow-sm d-none d-md-block imagem"></div>-->
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="img/equipe01.jpg" class="bd-placeholder-img rounded-circle border border-2 border-white" alt="">
+            <p>Equipe</p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img src="img/universo.jpg" class="bd-placeholder-img rounded-circle border border-2 border-white" alt="">
+            <p>Astronomia</p>
+          </div><!-- /.col-lg-4 -->
+
+          <div class="col-lg-4">
+            <img src="img/node01.jpg" class="bd-placeholder-img rounded-circle border border-2 border-white" alt="">
+            <p>Programação</p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <main>
+    <section class="container-sm mt-5">
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1>Sequências de conteúdo em Tecnologia</h1>
+        <p class="lead">Conteúdo também em empreendedorismo, astronomia, astrobiologia, física e um pouco de
+          paleontologia e livros de ciência </p>
+      </div>
+      <div class="row" data-masonry='{"percentPosition": true }'>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/team4.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Trabalho em equipe: 7 passos fundamentais para o sucesso</h5>
+              <p class="card-text">O aprimoramento do trabalho em equipe vem sendo, cada vez mais, adotado entre as
+                empresas, pois essa...</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card p-3">
+            <img src="img/codigos.jpg" alt="">
+            <figure class="p-3 mb-0">
+              <blockquote class="blockquote">
+                <p>As 10 Linguagens de Programação Mais Usadas em 2022</p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-muted">
+                top programação <cite title="Source Title">RWT</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card">
+            <img src="img/robotica.jpg" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Robótica</h5>
+              <p class="card-text">Robótica é a ciência que estuda as tecnologias associadas a concepção e construção de
+                robôs.</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card  text-center p-3">
+            <img src="img/comp.jpg" alt="">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>Hardware é todo componente físico, interno ou externo do seu computador</p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-white">
+                Someone famous in <cite title="Source Title">Source Title</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="img/perseverance.jpg" alt="">
+              <h5 class="card-title">Rover Perseverance</h5>
+              <p class="card-text">O rover Perseverance é um cientista robótico que pesa cerca de 2.260 libras (1.025
+                kg).</p>
+              <p class="card-text"><small class="text-muted">NOV, 14 2022</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 mb-4">
+          <div class="card p-3 text-end">
+            <img src="img/Historia-da-Internet.jpg" alt="">
+            <figure class="mb-0">
+              <blockquote class="blockquote">
+                <p>Conheça histórias das tecnologias que usamos no dia-dia , como surgiram...</p>
+              </blockquote>
+              <figcaption class="blockquote-footer mb-0 text-muted">
+                Historia-da-Internet <cite title="Source Title">RWT</cite>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <section class="container-sm p-4 bg-light">
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">introdução ao front com HTML, CSS, JavaScript e React</h2>
+          <!--<p class="lead">Construindo páginas Web com a base do Front-End. Marcação de texto com HTML, estilizado com CSS e interatividade com JavaScript.</p>-->
+          <p>Alura Imersão</p>
+          <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOopBYd"
+            data-user="roniwellington"
+            style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+            <span>See the Pen <a href="https://codepen.io/roniwellington/pen/gOopBYd">
+                Super Trunfo - Dia 7</a> by roni (<a href="https://codepen.io/roniwellington">@roniwellington</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <div class="col-md-5">
+          <img src="img/front02.jpg" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">Conhecendo o Back-End. (Java e Python)</span></h2>
+          <p class="lead"> Python vs Java é um duelo de gigantes, pois as duas são muito utilizadas pelos programadores.
+            Mas qual delas é a melhor?</p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/back.jpg" alt="">
+
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+    </section>
+
+    <section class="container-fluid">
+      <!--<div class="b-example-divider"></div>-->
+      <div class="pt-3 mt-4 text-muted border-top"></div>
+      <!--<div class="b-example-divider"></div>-->
+    </section>
+
+    <section>
+
+      <div class="container-sm">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="img/templates0.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+              height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="display-5 fw-bold lh-1 mb-3">Templates</h2>
+            <p class="lead">Projete e personalize rapidamente sites responsivos voltados para todos os tipos de telas
+              com html, css, JavaScript, bootstrap, react, vue, WordPress, wix, e todas as ferramentas disponibilizadas
+              neste site. Fique por dentro também do back-end com java, python e javascript.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <a href="templates.html"><button type="button"
+                  class="btn btn btn-warning btn-lg px-4 me-md-2">Templates</button></a>
+              <a href="Documentação.html"><button type="button"
+                  class="btn btn-outline-secondary btn-lg px-4">Documentação</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-sm text-center">
+        <h2 class="display-5 fw-bold">Por dentro do mercado de tecnologia</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Trabalhamos com desenvolvimento de sites e Design para social media personalizados e
+            funcionais que melhoram significativamente o nível de vendas da sua empresa.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <a href="https://thaiff.com/" target="_blank"><button type="button"
+                class="btn btn btn-warning btn-lg px-4 me-sm-3">Nossos Serviços</button></a>
+            <a href="templates.html"><button type="button"
+                class="btn btn-outline-secondary btn-lg px-4">Templates</button></a>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="img/novojack.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"
+              width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+      <div class="container-sm mb-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded  shadow-lg ultima-secao">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h2 class="display-5 fw-bold lh-1">O que fazemos?</h2>
+            <p class="lead fw-normal">Trabalhamos com desenvolvimento de sites e lojas Virtuais
+              usando as mais diversas plataformas de desenvolvimento, também temos templates prontos para você baixar e
+              customizar a sua maneira.Ou desenvolva do zero sua própria aplicação.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <a href="https://thaiff.com/" target="_blank">
+                <button type="button" class="btn btn btn-warning btn-lg px-4 me-md-2 fw-bold">Nossos Serviços
+                </button>
+              </a>
+              <a href="templates.html"><button type="button"
+                  class="btn btn-outline-secondary btn-lg px-4">Templates</button></a>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="img/novojack.jpg" alt="" width="720">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--FOOTER-->
+  <footer class="bg-dark text-secondary px-4 py-1 text-center">
+    <section class="container">
+      <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img src="img/icone01.png" alt="">
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy;JackLanterna</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="https://github.com/roniwellington" target="_blank"><img
+                src="img/github-icone.jpg" alt=""></a></li>
+          <li class="ms-3"><a class="text-muted"
+              href="https://br.linkedin.com/in/roni-wellington-377b15233?trk=people-guest_people_search-card&original_referer=https%3A%2F%2Froniwellington.github.io%2F"
+              target="_blank"><img src="img/linkedin.jpg" alt=""></a></li>
+          <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/roniwellington/" target="_blank"><img
+                src="img/instagram.png" alt=""></a></li>
+        </ul>
+      </div>
+    </section>
+  </footer>
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
